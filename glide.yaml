@@ -1,0 +1,3 @@
+package: github.com/koudaiii/go-sample-cli
+import:
+- package: github.com/mitchellh/cli
