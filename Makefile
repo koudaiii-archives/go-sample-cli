@@ -43,5 +43,5 @@ clean:
 update-deps: glide
 	./glide update
 
-fmt:
-	gofmt -w $(GOFMT_FILES)
+goimports:
+	goimports -w $(GOFMT_FILES)
