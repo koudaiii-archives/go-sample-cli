@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/mitchellh/cli"
 	"log"
 	"os"
+
+	"github.com/mitchellh/cli"
 )
 
 /** foo サブコマンド用の実装 **/
