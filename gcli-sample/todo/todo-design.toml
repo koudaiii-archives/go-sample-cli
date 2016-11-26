@@ -1,0 +1,11 @@
+Name = "todo"
+Owner = "koudaiii"
+Version = "0.1.0"
+Description = ""
+Framework = "codegangsta_cli"
+
+[[Commands]]
+  Name = ""
+  FunctionName = ""
+  Synopsis = ""
+  Help = ""
