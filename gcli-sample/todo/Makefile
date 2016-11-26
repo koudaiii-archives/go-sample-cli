@@ -2,7 +2,7 @@ LDFLAGS := -ldflags="-s -w"
 GLIDE_VERSION := 0.11.1
 GO15VENDOREXPERIMENT=1
 GOFMT_FILES?=$$(find . -name '*.go' | grep -v vendor)
-NAME=go-sample-cli
+NAME=todo
 
 build: deps
 	go build $(LDFLAGS) -o ./bin/$(NAME)
