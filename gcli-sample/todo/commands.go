@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/koudaiii/todo/command"
+	"github.com/koudaiii/go-sample-cli/gcli-sample/todo/command"
 	"github.com/mitchellh/cli"
 )
 
